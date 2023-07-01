@@ -122,7 +122,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         [    
             InlineKeyboardButton(
                 text="Rᴀɴᴀ [🇮🇳]", url=f"https://t.me/RANA_YOUR_FATHER"
-            )
+            ),
             InlineKeyboardButton(
                 text="Cʟᴏsᴇ", callback_data=f"close"
             )
