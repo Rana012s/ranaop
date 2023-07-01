@@ -59,9 +59,12 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
-        [
+        [   
             InlineKeyboardButton(
-                text="✯ 𝐂ʟᴏsᴇ ✯", callback_data=f"close"
+                text="Rᴀɴᴀ [🇮🇳]", url=f"https://t.me/RANA_YOUR_FATHER"
+            ),
+            InlineKeyboardButton(
+                text="Cʟᴏsᴇ", callback_data=f"close"
             )
         ],
     ]
@@ -116,9 +119,12 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
-        [
+        [    
             InlineKeyboardButton(
-                text="✯ 𝐂ʟᴏsᴇ ✯", callback_data=f"close"
+                text="Rᴀɴᴀ [🇮🇳]", url=f"https://t.me/RANA_YOUR_FATHER"
+            )
+            InlineKeyboardButton(
+                text="Cʟᴏsᴇ", callback_data=f"close"
             )
         ],
     ]
@@ -145,9 +151,12 @@ def stream_markup(_, videoid, chat_id):
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
-        [
+        [   
             InlineKeyboardButton(
-                text="✯ 𝐂ʟᴏsᴇ ✯", callback_data=f"close"
+                text="Rᴀɴᴀ [🇮🇳]", url=f"https://t.me/RANA_YOUR_FATHER"
+            ),
+            InlineKeyboardButton(
+                text="Cʟᴏsᴇ", callback_data=f"close"
             )
         ],
     ]
@@ -171,9 +180,12 @@ def telegram_markup(_, chat_id):
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
-        [
+        [   
             InlineKeyboardButton(
-                text="✯ 𝐂ʟᴏsᴇ ✯", callback_data=f"close"
+                text="Rᴀɴᴀ [🇮🇳]", url=f"https://t.me/RANA_YOUR_FATHER"
+            ),
+            InlineKeyboardButton(
+                text="Cʟᴏsᴇ", callback_data=f"close"
             )
         ],
     ]
@@ -297,7 +309,7 @@ close_keyboard = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        text="✯ 𝐂ʟᴏsᴇ ✯", callback_data="close"
+                        text="Cʟᴏsᴇ", callback_data="close"
                     )
                 ]    
             ]
@@ -326,9 +338,12 @@ def queue_markup(_, videoid, chat_id):
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
-        [
+        [   
             InlineKeyboardButton(
-                text="✯ 𝐂ʟᴏsᴇ ✯", callback_data=f"close"
+                text="Rᴀɴᴀ [🇮🇳]", url=f"https://t.me/RANA_YOUR_FATHER"
+            ),
+            InlineKeyboardButton(
+                text="Cʟᴏsᴇ", callback_data=f"close"
             )
         ],
     ]
