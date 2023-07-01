@@ -20,7 +20,12 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ),
             InlineKeyboardButton(
                 text="Sᴇᴛᴛɪɴɢs", callback_data="settings_helper"
-            ),
+            )
+        ],
+        [   
+            InlineKeyboardButton(
+                text="Rᴀɴᴀ [🇮🇳]", url=f"https://t.me/RANA_YOUR_FATHER"
+            )
         ],
      ]
     return buttons
