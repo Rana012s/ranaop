@@ -9,17 +9,17 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𝐀ᴅᴅ 𝐌ᴇ 𝐓ᴏ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ",
+                text="Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="𝐇ᴇʟᴩ",
+                text="Hᴇʟᴩ",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="𝐒ᴇᴛᴛɪɴɢs", callback_data="settings_helper"
+                text="Sᴇᴛᴛɪɴɢs", callback_data="settings_helper"
             ),
         ],
      ]
@@ -30,22 +30,30 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𝐀ᴅᴅ 𝐌ᴇ 𝐓ᴏ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ",
+                text="Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="𝐇ᴇʟᴩ", callback_data="settings_back_helper"
+                text="Hᴇʟᴩ", callback_data="settings_back_helper"
             )
         ],
         [
             InlineKeyboardButton(
-                text="❣ 𝐒ᴜᴩᴩᴏʀᴛ ❣", url=config.SUPPORT_GROUP
+                text="Sᴜᴩᴩᴏʀᴛ", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="🥀 𝐌ᴀɪɴᴛᴀɪɴᴇʀ 🥀", user_id=OWNER
+                text="Rᴀɴᴀ", user_id=OWNER
             )
+        ],
+        [
+           InlineKeyboardButton(
+                text="Sᴏᴜʀᴄᴇ", url="https://te.legra.ph/file/d1ac5371d520226e87afa.mp4"
+           ),
+           InlineKeyboardButton(
+                text="Uᴘᴅᴀᴛᴇs", url=config.SUPPORT_CHANNEL
+           )     
         ],
      ]
     return buttons
